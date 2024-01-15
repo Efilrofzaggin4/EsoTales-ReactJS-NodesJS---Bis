@@ -1,0 +1,28 @@
+.classes {
+    width: 100%;
+}
+
+.classesList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.classesItem {
+    display: flex;
+    width: 45%;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.bgImage {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
