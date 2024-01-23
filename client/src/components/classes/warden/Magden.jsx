@@ -1,6 +1,6 @@
 import React from 'react'
-import artic from './skillsImages/Artic_Blast.png'
-import trap from './skillsImages/Barbed_trap.png'
+import artic from './skillsImages/Arctic_Blast.png'
+import trap from './skillsImages/Barbed_Trap.png'
 import dive from './skillsImages/Cutting_Dive.png'
 import reach from './skillsImages/Destructive_Reach.png'
 import infection from './skillsImages/Fetcher_Infection.png'
@@ -19,7 +19,7 @@ function Magden() {
         <div className='intro'>
             <h3>Introduction</h3>
             <p>
-            The Magic Guardian is a good class for solo content thanks to the debuffs it can apply, and now proves to be more interesting in raids by leveraging its ice damage, contributing to an increase in its DPS while also bringing Minor Brittle to its group.
+            The Magicka Guardian is a good class for solo content thanks to the debuffs it can apply, and now proves to be more interesting in raids by leveraging its ice damage, contributing to an increase in its DPS while also bringing Minor Brittle to its group.
             </p>
         </div>
 
@@ -31,6 +31,7 @@ function Magden() {
                 <ul className='pros-list'>
                     <li>good single-target and Aoe damages</li>
                     <li>Provide minor brittle for his group</li>
+                    <li>Provide minor vulnerability for his group</li>
                 </ul>
             </div>
 

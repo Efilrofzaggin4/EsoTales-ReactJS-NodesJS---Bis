@@ -9,6 +9,8 @@ import Stamsorc from "./sorcerer/Stamsorc"
 import Magsorc from './sorcerer/Magsorc'
 import Stamarc from './arcanist/Stamarc'
 import Magarc from './arcanist/Magarc'
+import Magden from './warden/Magden'
+import Stamden from './warden/Stamden'
 
 export const ClassesList = [
     {
@@ -42,5 +44,7 @@ export const ClassesList = [
     {
         name: "Warden",
         image: warden,
+        stamina: <Stamden />,
+        magicka: <Magden />,
     },
 ]
