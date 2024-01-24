@@ -64,9 +64,9 @@ function Magplar() {
             <div className='food'>
                 <h4>Food</h4>
                 <ul>
-                    <li>Max stamina</li>
-                    <li>Max stamina + Max health</li>
-                    <li>Max stamina + stamina regen</li>
+                    <li>Max magicka</li>
+                    <li>Max magicka + Max health</li>
+                    <li>Max magicka + magicka regen</li>
                 </ul>
             </div>
 

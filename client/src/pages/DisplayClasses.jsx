@@ -11,9 +11,9 @@ function DisplayClasses() {
   return (
     <div>
       <h1>{classe.name}</h1>
-      <img src={classe.image} alt="sorcerer" />
-      <div>{classe.stamina}</div>
-      <div>{classe.magicka}</div>
+      <img src={classe.image} alt="classe-img" />
+      <div className='stamina'>{classe.stamina}</div>
+      <div className='magicka'>{classe.magicka}</div>
     </div>
   )
 }
