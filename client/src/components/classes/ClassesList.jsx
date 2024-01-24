@@ -13,6 +13,7 @@ import Magden from './warden/Magden'
 import Stamden from './warden/Stamden'
 import Magplar from './templar/Magplar'
 import Stamplar from './templar/Stamplar'
+import Stamdk from './dragonknight/Stamdk'
 
 export const ClassesList = [
     {
@@ -24,6 +25,7 @@ export const ClassesList = [
     {
         name: "Dragonknight",
         image: dragonknight,
+        stamina: <Stamdk />,
     },
     {
         name: "Necromancer",
