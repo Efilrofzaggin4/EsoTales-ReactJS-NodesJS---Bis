@@ -14,6 +14,7 @@ import mwhip from "./skillsImages/Molten_Whip.png"
 import smight from "./skillsImages/Standard_of_Might.png"
 import vclaw from "./skillsImages/Venomous_Claw.png"
 
+
 function Stamdk() {
   return (
     <div className='display-class'>
