@@ -17,6 +17,8 @@ import Stamdk from './dragonknight/Stamdk'
 import Magdk from './dragonknight/Magdk'
 import Stamblade from './nightblade/Stamblade'
 import Magblade from './nightblade/Magblade'
+import Stamcro from './necromancer/Stamcro'
+import Magcro from './necromancer/Magcro'
 
 export const ClassesList = [
     {
@@ -34,6 +36,8 @@ export const ClassesList = [
     {
         name: "Necromancer",
         image: necromancer,
+        stamina: <Stamcro />,
+        magicka: <Magcro />,
     },
     {
         name: "Nightblade",
