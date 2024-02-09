@@ -4,6 +4,8 @@ import Footer from './components/ui/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Gallery from './pages/Gallery';
+import DisplayImages from './pages/DisplayImages';
+import DisplayVideos from './pages/DisplayVideos';
 import Classes from './pages/Classes';
 import News from './pages/News';
 import Guides from "./pages/Guides";
@@ -26,6 +28,8 @@ function App() {
         <Route path='/news' element={<News/>}/>
         <Route path='/news/:id' element={<DisplayNews/>}/>
         <Route path='/gallery' element={<Gallery/>}/>
+        <Route path='/gallery/images' element={<DisplayImages/>}/>
+        <Route path='/gallery/videos' element={<DisplayVideos/>}/>
         <Route path='/createnews' element={<CreateNews/>}/> 
       </Routes>
       <Footer />

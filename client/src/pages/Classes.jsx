@@ -8,7 +8,7 @@ import { ClassesList } from "../components/classes/ClassesList";
 function CLasses() {
   return (
     <div className='classes'>
-      <h1>Les Classes</h1>
+      <h1>Classes</h1>
       <div className='classesList'>
         {ClassesList.map((classe, idx) =>{
           return <CLassesItem id={idx} name={classe.name} image={classe.image} />
