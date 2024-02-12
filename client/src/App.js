@@ -10,10 +10,10 @@ import Classes from './pages/Classes';
 import News from './pages/News';
 import Guides from "./pages/Guides";
 import DisplayClasses from './pages/DisplayClasses'
-import DisplayGuides from './pages/DisplayGuides'
+// import DisplayGuides from './pages/DisplayGuides'
 import DisplayNews from './pages/DisplayNews'
 import CreateNews from './pages/CreateNews'
-
+import BeginnerGuides from './pages/DisplayGuides';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         <Route path='/classes' element={<Classes/>}/>
         <Route path='/classes/:id' element={<DisplayClasses/>}/>
         <Route path='/guides' element={<Guides/>}/>
-        <Route path='/guides/:id' element={<DisplayGuides/>}/>
+        <Route path='/guides/beginner/:id' element={<BeginnerGuides/>}/>
         <Route path='/news' element={<News/>}/>
         <Route path='/news/:id' element={<DisplayNews/>}/>
         <Route path='/gallery' element={<Gallery/>}/>
