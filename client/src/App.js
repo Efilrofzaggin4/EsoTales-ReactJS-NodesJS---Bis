@@ -13,7 +13,7 @@ import DisplayClasses from './pages/DisplayClasses'
 // import DisplayGuides from './pages/DisplayGuides'
 import DisplayNews from './pages/DisplayNews'
 import CreateNews from './pages/CreateNews'
-import BeginnerGuides from './pages/DisplayGuides';
+import {BeginnerGuides, CombatGuides } from './pages/DisplayGuides';
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
         <Route path='/classes/:id' element={<DisplayClasses/>}/>
         <Route path='/guides' element={<Guides/>}/>
         <Route path='/guides/beginner/:id' element={<BeginnerGuides/>}/>
+        <Route path='/guides/combat/:id' element={<CombatGuides/>}/>
         <Route path='/news' element={<News/>}/>
         <Route path='/news/:id' element={<DisplayNews/>}/>
         <Route path='/gallery' element={<Gallery/>}/>
