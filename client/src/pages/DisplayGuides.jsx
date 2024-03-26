@@ -21,6 +21,11 @@ function BeginnerGuides() {
       <p className='part10'>{bGuides.part10}</p>
       <p className='part11'>{bGuides.part11}</p>
       <p className='part12'>{bGuides.part12}</p>
+      <p className='part13'>{bGuides.part13}</p>
+      <p className='part14'>{bGuides.part14}</p>
+      <p className='part15'>{bGuides.part15}</p>
+      <p className='part16'>{bGuides.part16}</p>
+      <p className='part17'>{bGuides.part17}</p>
     </div>
   )
 }
@@ -44,6 +49,11 @@ function CombatGuides() {
       <p className='part10'>{cGuides.part10}</p>
       <p className='part11'>{cGuides.part11}</p>
       <p className='part12'>{cGuides.part12}</p>
+      <p className='part13'>{cGuides.part13}</p>
+      <p className='part14'>{cGuides.part14}</p>
+      <p className='part15'>{cGuides.part15}</p>
+      <p className='part16'>{cGuides.part16}</p>
+      <p className='part17'>{cGuides.part17}</p>
     </div>
   )
 }
