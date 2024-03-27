@@ -8,7 +8,7 @@ function BeginnerItem({name, id}) {
         onClick={() => {
           navigate("/guides/beginner/" + id)
       }}>
-          <h2>{name}</h2>
+          <h3>{name}</h3>
       </div>
     )
 }

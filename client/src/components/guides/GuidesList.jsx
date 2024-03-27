@@ -111,4 +111,96 @@ export const CombatList = [
 
 ]
 
- 
+export const CraftingList = [
+    {
+        name: "Crafting system",
+        part1: <img src="https://esosslfiles-a.akamaihd.net/ape/uploads/2024/02/e721e1b65f173c437eeb6e85a0682502.jpg" alt="eso-character-crafting"/>,
+        part2: "The crafting system in The Elder Scrolls Online (ESO) is robust and offers players the opportunity to create a wide variety of items, including weapons, armor, potions, food, glyphs, furniture, and more. Here's a detailed overview of the crafting system in ESO:" ,
+        part3:  <div>
+                    <h3>Crafting Professions: There are several crafting professions in ESO, each specializing in different types of items:</h3>
+                    <ul>
+                        <li>Blacksmithing: Allows players to craft heavy armor, weapons, and metal-based items.</li>
+                        <li>Clothing: Enables players to craft light and medium armor, as well as clothing items.</li>
+                        <li>Woodworking: Focuses on crafting bows, staves, and shields made from wood.</li>
+                        <li>Alchemy: Allows players to create potions and poisons using various reagents found throughout the world.</li>
+                        <li>Enchanting: Enables players to imbue weapons, armor, and jewelry with magical properties using runestones.</li>
+                        <li>Provisioning: Involves creating food and drinks that provide various buffs and benefits when consumed.</li>
+                        <li>Jewelry Crafting: Introduced in later updates, allows players to craft rings and necklaces.</li>
+                        <li>Furnishing: Enables players to craft furniture and decorations for their homes.</li>
+                    </ul>
+                </div>,
+        part4:  <div>
+                    <h3>Gathering Resources: To craft items, players must gather resources from the world. Resources include:</h3>
+                    <ul>
+                        <li>Raw Materials: Found throughout the world and include ore nodes for metal, cloth scraps for clothing, wood from trees, and raw materials for jewelry crafting.</li>
+                        <li>Reagents: Used in alchemy and gathered from plants, mushrooms, insects, and other sources.</li>
+                        <li>Food and Drink Ingredients: Used in provisioning and obtained from food containers, slain animals, and monsters.</li>
+                        <li> Runestones: Used in enchanting and found in ruins, caves, and other locations.</li>
+                        <li>Furniture Plans and Recipes: Used in furnishing and obtained from exploration, quests, and vendors.</li>
+                    </ul>
+                </div>,
+        part5: 
+            <div>
+                <div>To craft items, players must visit crafting stations specific to each profession. These stations are found throughout the world and in major cities. Interacting with a crafting station opens the crafting interface, where players can select the item they want to craft and use their acquired materials.</div>
+                <img src="https://images.uesp.net/c/c1/ON-furnishing-Alchemy_Station.jpg" alt="alchemy-station" />
+                <img src="https://images.uesp.net/8/86/ON-furnishing-Blacksmithing_Station.jpg" alt="blacksmithing-station" />
+                <img src="https://images.uesp.net/2/2b/ON-furnishing-Clothing_Station.jpg" alt="clothing-station" />
+                <img src="https://images.uesp.net/3/30/ON-furnishing-Enchanting_Station.jpg" alt="enchanting-station" />
+                <img src="https://images.uesp.net/4/4e/ON-furnishing-Jewelry_Crafting_Station.jpg" alt="jewelry-crafting-station" />
+                <img src="https://images.uesp.net/3/31/ON-furnishing-Provisioning_Station.jpg" alt="provisioning-station" />
+                <img src="https://images.uesp.net/b/b3/ON-furnishing-Woodworking_Station.jpg" alt="woodworking-station" />
+            </div>,
+        part6: "Skill Lines and Research: Each crafting profession has its own skill line, which players can level up by crafting items, deconstructing items, researching traits, and completing daily crafting writs. Researching traits allows players to unlock the ability to craft items with specific bonuses and traits.",
+        part7: "Improvement and Refinement: Players can improve the quality of crafted items by refining raw materials, upgrading items using upgrade materials, and applying improvement materials to increase the chance of success.",
+        part8: "Master Writs and Specialization: As players progress in their crafting skills, they can undertake Master Writs, which are challenging crafting tasks that yield valuable rewards. Players can also specialize in certain crafting professions to gain unique bonuses and abilities.",
+        part9: <div>
+                    <h3> In The Elder Scrolls Online, traits are special properties that can be applied to weapons and armor during the crafting process. Here's a summary of traits:</h3>
+                    <ul>
+                        <li>Research: Before applying a trait to an item, players must first research it at a crafting station. Researching a trait requires time and resources.</li>
+                        <li>Armor Traits: Applied to armor pieces, providing bonuses such as increased health, magicka, or stamina, reduced damage from players, and resistance to specific damage types.</li>
+                        <li>Weapon Traits: Applied to weapons, providing bonuses such as increased damage, improved critical chance, resource regeneration, or unique effects like life-stealing or poison damage.</li>
+                        <li>Applying Traits: Done at a crafting station by selecting the desired trait from researched options. Each item can have only one trait applied.</li>
+                        <li>Trait Stones: Some traits require trait stones obtained from deconstructing items or other sources.</li>
+                        <li>Transmutation: Allows players to change existing traits on gear using Transmute Crystals, obtained from various in-game activities.</li>
+                    </ul>
+                </div>,
+        part10: "Overall, the crafting system in ESO offers a deep and immersive experience, allowing players to customize their gear, create powerful consumables, and furnish their homes to their liking. Whether you're a master blacksmith, alchemist, or chef, there's something for every crafter in the world of Tamriel.",
+    },
+    {
+        name: "Resources Gathering",
+        part1: <img src="https://esosslfiles-a.akamaihd.net/ape/uploads/2024/02/e721e1b65f173c437eeb6e85a0682502.jpg" alt="eso-gathering" />,
+        part2: "Gathering in The Elder Scrolls Online (ESO) refers to the process of collecting resources from the game world to use in crafting, provisioning, and other activities. Here's a detailed explanation of gathering in ESO:",
+        part3:  <div>
+                    <h3>Types of Resources: There are several types of resources that players can gather in ESO:</h3>
+                    <ul>
+                        <li>Raw Materials: These include ore nodes for metal, cloth scraps for clothing, wood from trees, and raw materials for jewelry crafting.</li>
+                        <li>Reagents: Used in alchemy, reagents are gathered from plants, mushrooms, insects, and other sources found throughout the world.</li>
+                        <li>Food and Drink Ingredients: Used in provisioning, these ingredients are obtained from food containers, slain animals, and monsters.</li>
+                        <li>Runestones: Used in enchanting, runestones are found in ruins, caves, and other locations across Tamriel.</li>
+                        <li>Furniture Plans and Recipes: Used in furnishing, these plans and recipes are obtained from exploration, quests, and vendors.</li>
+                    </ul>
+                </div>,
+        part4:  <div>
+                    <h3>Gathering Methods:</h3>
+                    <ul>
+                        <li>Harvesting: Players can harvest raw materials by interacting with resource nodes found in the world. Nodes are visible on the map and appear as glowing objects that can be harvested once approached.</li>
+                        <li>Looting: Reagents, food ingredients, and other resources can be obtained by looting containers, slain enemies, and various objects found in the environment.</li>
+                        <li>Fishing: Players can fish in bodies of water using a fishing rod to obtain fish and other items used in provisioning and other activities.</li>
+                    </ul>
+                </div>,
+        part5: <div>
+            <h3>Resource Nodes:</h3>
+            <ul>
+                <li>Ore Nodes: Found in rocky areas and caves, ore nodes yield metal ingots used in blacksmithing and jewelry crafting.</li>
+                <li>Cloth Nodes: Scattered throughout the world, cloth nodes provide cloth scraps used in clothing crafting.</li>
+                <li>Wood Nodes: Trees and logs found in forests and wooded areas can be harvested for wood used in woodworking.</li>
+                <li>Alchemy Nodes: Plants, mushrooms, and other flora provide reagents used in alchemy and can be found in various environments, including forests, marshes, and mountains.</li>
+                <li> Runestone Nodes: Runestones used in enchanting are often found in ruins, caves, and other ancient sites.</li>
+                <li>Furniture Plans: Plans and recipes for furnishing can be obtained from exploration, quests, and vendors.</li>
+            </ul>
+        </div>,
+        part6: "Resource Maps and Add-Ons: Some players(PC) use resource maps or add-ons to help locate specific resource nodes in the world. These tools can be helpful for efficiently gathering materials for crafting and other activities.",
+        part7: "Resource Nodes Scaling: Resource nodes scale with the player's level and crafting skill levels, ensuring that higher-level players can find relevant resources regardless of their location in the game world.",
+        part8: "Overall, gathering in ESO is an essential aspect of gameplay, providing players with the materials they need to craft items, brew potions, cook food, and furnish their homes. Whether you're exploring the wilderness for rare reagents or mining ore in dark caves, there's always something to discover and collect in the rich and diverse world of Tamriel.",
+    }
+]
