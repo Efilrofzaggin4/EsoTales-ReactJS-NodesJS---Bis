@@ -202,5 +202,55 @@ export const CraftingList = [
         part6: "Resource Maps and Add-Ons: Some players(PC) use resource maps or add-ons to help locate specific resource nodes in the world. These tools can be helpful for efficiently gathering materials for crafting and other activities.",
         part7: "Resource Nodes Scaling: Resource nodes scale with the player's level and crafting skill levels, ensuring that higher-level players can find relevant resources regardless of their location in the game world.",
         part8: "Overall, gathering in ESO is an essential aspect of gameplay, providing players with the materials they need to craft items, brew potions, cook food, and furnish their homes. Whether you're exploring the wilderness for rare reagents or mining ore in dark caves, there's always something to discover and collect in the rich and diverse world of Tamriel.",
+    },
+    {
+        name: "Housing",
+        part1: <img src="https://eso.mmo-fashion.com/wp-content/uploads/sites/2/2017/01/DOMUS-PHRASTICUS-UNFURNISHED.jpg" alt="eso-decorated-house" />,
+        part2: <div>
+                    <h3>Acquiring a Home:</h3>
+                    <ul>
+                        <li>Purchase: Players can purchase homes from various in-game vendors, such as housing brokers, located in major cities and settlements throughout Tamriel. Homes are available for purchase using in-game gold or through the Crown Store, ESO's real-money marketplace.</li>
+                        <li>Achievements and Quests: Some homes are rewards for completing specific achievements or quests in the game. These homes are typically more prestigious and may require significant effort to obtain.</li>
+                    </ul>
+                </div>,
+        part3: <div>
+                    <h3>Types of Homes:</h3>
+                    <ul>
+                        <li>Starter Homes: Small, modest homes suitable for new players or those on a budget. These homes often have limited customization options but provide a starting point for players to get acquainted with housing.</li>
+                        <li>Manors and Estates: Larger, more luxurious homes with extensive customization options and spacious interiors. These homes offer ample space for decoration and furnishing, making them ideal for players who enjoy interior design and role-playing.</li>
+                        <li>Apartments and Inn Rooms: Compact living spaces available in major cities and settlements. These homes are smaller in size but offer convenience and affordability for players who prefer a cozy living arrangement.</li>
+                        <li>Special Homes: Unique homes obtained through achievements, quests, or special events. These homes often have distinctive themes, layouts, and features, making them prized possessions among players.</li>
+                    </ul>
+                </div>,
+        part4: <div>
+                    <h3>Customization and Decoration:</h3>
+                    <ul>
+                        <li> Furnishing: Players can decorate their homes with a wide variety of furniture, decorations, and furnishings obtained through crafting, vendors, quests, or the Crown Store. Furniture can be arranged and placed freely within the home, allowing for endless creative possibilities.</li>
+                        <li>Crafting Stations and Mundus Stones: Some homes come with built-in crafting stations, Mundus Stones, or other useful amenities that provide convenience and functionality for players.</li>
+                        <li>Outdoor Spaces: Many homes feature outdoor spaces such as gardens, courtyards, or patios that can be decorated and customized to create beautiful outdoor retreats.</li>
+                    </ul>
+                </div>,
+        part5: <div>
+                    <h3>Visitors and Permissions:</h3>
+                    <ul>
+                        <li>Visitor Access: Players can invite friends, guildmates, or other players to visit their homes and admire their decorations.</li>
+                        <li>Permissions: Homeowners can set permissions to control who can enter their home, interact with furnishings, or move items within the home. This allows players to maintain privacy and security for their personal spaces.</li>
+                    </ul>
+                </div>,
+        part6: <div>
+                    <h3>Achievements and Leaderboards:</h3>
+                    <ul>
+                        <li>Homeowner Achievements: ESO features achievements related to housing, such as owning a certain number of homes, decorating homes with specific themes, or completing housing-related tasks.</li>
+                        <li>Leaderboards: Some events and competitions in ESO may include leaderboards for housing-related activities, such as decorating contests or home tours.</li>
+                    </ul>
+                </div>,
+        part7: <div>
+            <h3>Social Features:</h3>
+            <ul>
+                <li>Guild Halls: Some large homes can serve as guild halls, providing meeting spaces, storage, and amenities for guild members to use.</li>
+                <li>Social Events: Players often host social events, parties, and role-playing gatherings in their homes, fostering a sense of community and camaraderie among players.</li>
+            </ul>
+        </div>,
+        part8: "Overall, the housing system in ESO offers players a creative and immersive way to personalize their gameplay experience, express their creativity, and showcase their achievements in the vibrant world of Tamriel. Whether you're a master decorator, a collector of rare furnishings, or simply looking for a cozy retreat to call home, there's a place for everyone in the diverse and dynamic housing landscape of ESO."
     }
 ]
